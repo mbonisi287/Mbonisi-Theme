@@ -91,7 +91,7 @@ function pilot_custom_post_type (){
 		'singular_name' => 'Team Member',
 		'plural_name' => 'Team Members',
 		'add_new' => 'Add New Team Member',
-		'all_items' => 'All Team Member',
+		'all_items' => 'All Team Members',
 		'add_new_item' => 'Add Team Member',
 		'edit_item' => 'Edit Team Member',
 		'new_item' => 'New Team Member',
@@ -115,10 +115,10 @@ function pilot_custom_post_type (){
 			'editor',
 			'excerpt',
 			'thumbnail',
-			'revisions',
+			'revisions',     
 		),
 		/* 'taxonomies' => array('category', 'post_tag'), */
-		'taxonomies' => array('category'),
+		'taxonomies' => array('category', 'post_tag'),
 		'menu_position' => 5,
 		'exclude_from_search' => false
 	);
